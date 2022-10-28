@@ -1,0 +1,31 @@
+<!-- File name: add.ejs
+  Author's name: David Pietrocola
+  StudentID: 301247544
+  Web App name: David's Web App
+-->
+<% include ../partials/header.ejs %>
+<div class="container">
+    <form method="post">
+        <div class="mb-3">
+            <label for="Facultyid" class="form-label">Faculty id</label>
+            <input type="text" class="form-control" id="Facultyid" name="Facultyid">
+        </div>
+        <div class="mb-3">
+            <label for="Facultyname" class="form-label">Faculty Name</label>
+            <input type="text" class="form-control" id="Facultyname" name="Facultyname">
+        </div>
+        <div class="mb-3">
+            <label for="Department" class="form-label">Department</label>
+            <input type="text" class="form-control" id="Department" name="Department">
+        </div>
+        <div class="mb-3"> 
+            <label for="Subject" class="form-label">Subject</label>
+            <input type="text" class="form-control" id="Subject" name="Subject">
+        </div>
+        <br><br>    
+        <button type="submit" class="btn btn-primary mt-5">Submit</button>
+    </form>
+</div>
+
+
+<% include ../partials/footer.ejs %>
